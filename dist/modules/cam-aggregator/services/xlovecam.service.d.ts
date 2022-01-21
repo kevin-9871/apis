@@ -1,0 +1,64 @@
+import { HttpService } from '@nestjs/common';
+export declare class XLoveCamService {
+    private httpService;
+    constructor(httpService: HttpService);
+    listOnline({ lang, searchtxt, order, category, s_language, price, age, boobs, hair_color, hair_length, eyes, height, weight, ethnic_group, tags, sex_apparence, body_apparence, sex_size, chat, offset, limit, authServiceId, authItemId, authSecret }: {
+        lang?: string;
+        searchtxt?: string;
+        order?: string;
+        category?: string;
+        s_language?: string;
+        price?: string;
+        age?: string;
+        boobs?: string;
+        hair_color?: string;
+        hair_length?: string;
+        eyes?: string;
+        height?: string;
+        weight?: string;
+        ethnic_group?: string;
+        tags?: string;
+        sex_apparence?: string;
+        body_apparence?: string;
+        sex_size?: string;
+        chat?: string;
+        offset?: number;
+        limit?: number;
+        authServiceId?: string;
+        authItemId?: string;
+        authSecret?: string;
+    }): Promise<any>;
+    getDetails(modelIds: any, options?: {
+        authServiceId: string;
+        authItemId: string;
+        authSecret: string;
+    }): Promise<unknown>;
+    getDetails2(modelId: any): Promise<{
+        _id: any;
+        avatar: any;
+        username: any;
+        dateOfBirth: any;
+        phone: any;
+        isOnline: boolean;
+        watching: any;
+        gender: string;
+        isStreaming: boolean;
+        isFavorite: boolean;
+        socials: boolean;
+        stats: {};
+        lastStreamingTime: any;
+        streamingStatus: string;
+        streamingTitle: any;
+        country: any;
+        city: any;
+        state: any;
+        zipcode: any;
+        address: any;
+        languages: string[];
+        categoryIds: any[];
+        categories: any[];
+        service: string;
+        aboutMe: any;
+        photos: any[];
+    }>;
+}

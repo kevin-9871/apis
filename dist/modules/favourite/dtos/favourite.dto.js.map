@@ -1,0 +1,1 @@
+{"version":3,"file":"favourite.dto.js","sourceRoot":"","sources":["../../../../src/modules/favourite/dtos/favourite.dto.ts"],"names":[],"mappings":";;;AACA,mCAA8B;AAC9B,+CAAgE;AAkBhE,MAAa,YAAY;IAavB,YAAY,IAA6B;QACvC,MAAM,CAAC,MAAM,CACX,IAAI,EACJ,aAAI,CAAC,IAAI,EAAE;YACT,YAAY;YACZ,SAAS;YACT,WAAW;YACX,WAAW;YACX,WAAW;SACZ,CAAC,CACH,CAAC;IACJ,CAAC;CACF;AAzBD,oCAyBC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"mongodb.module.js","sourceRoot":"","sources":["../../../../src/kernel/infras/mongodb/mongodb.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,yDAAsD;AAMtD,IAAa,aAAa,GAA1B,MAAa,aAAa;CAAG,CAAA;AAAhB,aAAa;IAJzB,eAAM,CAAC;QACN,SAAS,EAAE,CAAC,GAAG,mCAAgB,CAAC;QAChC,OAAO,EAAE,CAAC,GAAG,mCAAgB,CAAC;KAC/B,CAAC;GACW,aAAa,CAAG;AAAhB,sCAAa"}

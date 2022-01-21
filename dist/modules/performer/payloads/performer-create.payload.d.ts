@@ -1,0 +1,56 @@
+import { ObjectId } from 'mongodb';
+import { ISchedule, ICommissionSetting } from '../dtos';
+export declare class PerformerCreatePayload {
+    name?: string;
+    firstName?: string;
+    lastName?: string;
+    username: string;
+    password?: string;
+    status: string;
+    email: string;
+    phone?: string;
+    phoneCode?: string;
+    avatarId?: string;
+    idVerificationId?: string;
+    documentVerificationId?: string;
+    releaseFormId?: string;
+    gender?: string;
+    country?: string;
+    city?: string;
+    state?: string;
+    zipcode?: string;
+    address?: string;
+    languages?: string[];
+    studioId?: string | ObjectId;
+    categoryIds?: string[];
+    schedule?: ISchedule;
+    timezone?: string;
+    noteForUser?: string;
+    emailVerified?: boolean;
+    socials?: any;
+    commissionSetting?: ICommissionSetting;
+}
+export declare class PerformerRegisterPayload {
+    name?: string;
+    firstName?: string;
+    lastName?: string;
+    username: string;
+    password?: string;
+    status: string;
+    email: string;
+    phone?: string;
+    phoneCode?: string;
+    avatarId?: string;
+    idVerificationId?: string;
+    documentVerificationId?: string;
+    gender?: string;
+    country?: string;
+    city?: string;
+    state?: string;
+    zipcode?: string;
+    address?: string;
+    languages?: string[];
+    timezone?: string;
+    noteForUser?: string;
+    emailVerified?: boolean;
+}

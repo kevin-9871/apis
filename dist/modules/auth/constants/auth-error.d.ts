@@ -1,0 +1,10 @@
+export declare const EMAIL_OR_PASSWORD_INCORRECT = "Email or Password is incorrect";
+export declare const USERNAME_OR_PASSWORD_INCORRECT = "Username or Password is incorrect";
+export declare const EMAIL_NOT_VERIFIED = "Email is not verified yet";
+export declare const ACCOUNT_EXISTED = "Account is already existed";
+export declare const CANNOT_AUTHENTICATE = "Could not authenticate";
+export declare const ACCOUNT_NOT_FOUND = "Account is not found";
+export declare const USERNAME_HAS_BEEN_TAKEN = "This username has been taken";
+export declare const EMAIL_HAS_BEEN_TAKEN = "This email has been taken";
+export declare const ACCOUNT_INACTIVE = "Your account has been deactivated";
+export declare const DOCUMENT_MISSING = "Document is required";

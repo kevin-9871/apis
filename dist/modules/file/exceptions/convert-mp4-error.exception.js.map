@@ -1,0 +1,1 @@
+{"version":3,"file":"convert-mp4-error.exception.js","sourceRoot":"","sources":["../../../../src/modules/file/exceptions/convert-mp4-error.exception.ts"],"names":[],"mappings":";;;AAAA,2CAA4C;AAC5C,4CAA8C;AAE9C,MAAa,wBAAyB,SAAQ,yBAAgB;IAC5D,YACE,KAAK,GAAG,oBAAoB;QAE5B,KAAK,CAAC,mBAAmB,EAAE,KAAK,EAAE,mBAAU,CAAC,WAAW,CAAC,CAAC;IAC5D,CAAC;CACF;AAND,4DAMC"}

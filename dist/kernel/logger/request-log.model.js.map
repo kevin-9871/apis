@@ -1,0 +1,1 @@
+{"version":3,"file":"request-log.model.js","sourceRoot":"","sources":["../../../src/kernel/logger/request-log.model.ts"],"names":[],"mappings":";;;AAAA,qCAAqC;AACrC,6DAAwD;AAExD,QAAQ,CAAC,OAAO,CAAC,OAAO,CAAC,GAAG,CAAC,SAAS,EAAE;IACtC,cAAc,EAAE,IAAI;IACpB,eAAe,EAAE,IAAI;IACrB,kBAAkB,EAAE,IAAI;CACzB,CAAC,CAAC;AAEU,QAAA,eAAe,GAAG,QAAQ,CAAC,KAAK,CAAC,YAAY,EAAE,qCAAgB,CAAC,CAAC"}

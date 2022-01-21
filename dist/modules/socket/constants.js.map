@@ -1,0 +1,1 @@
+{"version":3,"file":"constants.js","sourceRoot":"","sources":["../../../src/modules/socket/constants.ts"],"names":[],"mappings":";;;AAAa,QAAA,6BAA6B,GAAG,+BAA+B,CAAC;AAEhE,QAAA,iBAAiB,GAAG;IAC/B,SAAS,EAAE,WAAW;IACtB,YAAY,EAAE,cAAc;CAC7B,CAAC;AAEW,QAAA,kCAAkC,GAAG,oCAAoC,CAAC"}

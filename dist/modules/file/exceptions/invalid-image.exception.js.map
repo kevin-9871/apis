@@ -1,0 +1,1 @@
+{"version":3,"file":"invalid-image.exception.js","sourceRoot":"","sources":["../../../../src/modules/file/exceptions/invalid-image.exception.ts"],"names":[],"mappings":";;;AAAA,2CAA4C;AAC5C,4CAA8C;AAE9C,MAAa,qBAAsB,SAAQ,yBAAgB;IACzD,YAAY,MAAuB,eAAe,EAAE,QAAgB,eAAe;QACjF,KAAK,CAAC,GAAG,EAAE,KAAK,EAAE,mBAAU,CAAC,WAAW,CAAC,CAAC;IAC5C,CAAC;CACF;AAJD,sDAIC"}

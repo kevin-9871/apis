@@ -1,0 +1,34 @@
+import { Model } from 'mongoose';
+import { ObjectId } from 'mongodb';
+import { UserDto } from 'src/modules/user/dtos';
+import { PerformerDto } from 'src/modules/performer/dtos';
+import { PerformerService } from 'src/modules/performer/services';
+import { MailerService } from 'src/modules/mailer';
+import { SettingService } from 'src/modules/settings';
+import { EarningService } from 'src/modules/earning/services/earning.service';
+import { QueueEventService } from 'src/kernel';
+import { StudioService } from 'src/modules/studio/services';
+import { StudioDto } from 'src/modules/studio/dtos';
+import { PaymentInformationService } from 'src/modules/payment-information/services';
+import { PayoutRequestDto } from '../dtos/payout-request.dto';
+import { PayoutRequestCreatePayload, PayoutRequestSearchPayload, PayoutRequestUpdatePayload } from '../payloads/payout-request.payload';
+import { PayoutRequestModel } from '../models/payout-request.model';
+export declare class PayoutRequestService {
+    private readonly payoutRequestModel;
+    private readonly studioService;
+    private readonly queueEventService;
+    private readonly performerService;
+    private readonly mailService;
+    private readonly settingService;
+    private readonly earningService;
+    private readonly paymentInformationService;
+    constructor(payoutRequestModel: Model<PayoutRequestModel>, studioService: StudioService, queueEventService: QueueEventService, performerService: PerformerService, mailService: MailerService, settingService: SettingService, earningService: EarningService, paymentInformationService: PaymentInformationService);
+    search(req: PayoutRequestSearchPayload, user?: UserDto): Promise<any>;
+    getRequestSource(request: PayoutRequestDto | PayoutRequestModel): Promise<PerformerDto | StudioDto>;
+    findById(id: string | object): Promise<any>;
+    create(payload: PayoutRequestCreatePayload, user?: PerformerDto): Promise<PayoutRequestDto>;
+    update(id: string, payload: PayoutRequestCreatePayload, performer: PerformerDto): Promise<PayoutRequestDto>;
+    details(id: string, user: PerformerDto): Promise<PayoutRequestDto>;
+    adminDetails(id: string): Promise<PayoutRequestDto>;
+    updateStatus(id: string | ObjectId, payload: PayoutRequestUpdatePayload, user?: UserDto): Promise<any>;
+}
